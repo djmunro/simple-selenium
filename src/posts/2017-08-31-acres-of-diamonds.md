@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "Acres Of Diamonds - Part 1: You Already Own the Acre Of Diamonds"
+date: "2017-08-31"
 author: "David Munro"
 categories: [Personal Growth]
 tags: [success,motivation]

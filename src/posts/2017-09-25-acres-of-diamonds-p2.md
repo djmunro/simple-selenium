@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "Acres Of Diamonds - Part 2: How To Mine The Acres Of Diamonds"
+date: "2017-09-25"
 author: "David Munro"
 categories: [Personal Growth]
 tags: [success,motivation]

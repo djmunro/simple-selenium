@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "The Strangest Secret - 30 Day Test"
+date: "2017-08-02"
 author: "David Munro"
 categories: [Personal Growth]
 tags: [success,motivation]
@@ -113,5 +113,5 @@ Also remember. Success is not the result of making money. Making money is a resu
 
 Make a 30 day test and repeated and repeated again
 
-[![Change Your Life in 19 Minutes with Earl Nightingale](http://livesensical.com/wp-content/uploads/2015/12/nightingale-ss-cover.jpg)](https://www.youtube.com/watch?v=EFhkdzj-x80)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=EFhkdzj-x80" frameborder="0" allowfullscreen></iframe>
 

@@ -9,8 +9,8 @@ export default ({ data }) => {
   console.log(data);
   return (
     <div>
-      <g.H1 display={"inline-block"} borderBottom={"1px solid"}>
-        Amazing Pandas Eating Things
+      <g.H1 display={"inline"} borderBottom={"1px solid"}>
+        Posts
       </g.H1>
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "How Successful People Think"
+date: "2017-08-08"
 author: "David Munro"
 categories: [Personal Growth]
 tags: [success,motivation]

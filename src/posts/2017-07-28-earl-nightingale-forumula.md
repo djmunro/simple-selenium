@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "19 Minutes That Can Change your Life"
+date: "2017-07-28"
 author: "David Munro"
 categories: [Personal Growth]
 tags: [success,motivation]
@@ -62,8 +62,6 @@ Three things to remember. Three things to practice every day. If you spend 16 ho
 
 Remember the formula: Our rewards in life will always be in exact proportion to our contribution, our service. Go with the ideas in this message every day until it’s as much a part of you as your name and your temporary address. You will notice that each time you listen, you’ll hear something new. You will get a new idea you failed to get before.
 
-<!-- [![Change Your Life in 19 Minutes with Earl Nightingale](https://www.youtube.com/watch?v=6tbHYvH347A)] -->
-
-[![Change Your Life in 19 Minutes with Earl Nightingale](https://i.ytimg.com/vi/-NzPojYOijQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=6tbHYvH347A)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6tbHYvH347A" frameborder="0" allowfullscreen></iframe>
 
 [Original Transcript](https://singjupost.com/19-minutes-that-can-change-your-life-by-earl-nightingale-full-transcript/2/)
