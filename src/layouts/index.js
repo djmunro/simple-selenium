@@ -1,47 +1,50 @@
 import React from "react";
 import g from "glamorous";
-import { css } from "glamor";
-import Link from "gatsby-link";
-
+import Header from "../components/header";
+import SiteFooter from "../components/footer";
+import Helmet from 'react-helmet';
+import { ThemeProvider } from 'glamorous';
 import { rhythm } from "../utils/typography";
+require("prismjs/themes/prism-solarizedlight.css");
 
-const linkListStyle = css({ listStyle: `none`, float: `right` });
 
-const ListLink = props =>
-    <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-        <Link to={props.to}>
-            {props.children}
-        </Link>
-    </li>
+const theme = {
+  width: `800`
+};
 
-export default ({ children, data }) =>
-  <g.Div
-    margin={`0 auto`}
-    maxWidth={800}
-    padding={rhythm(2)}
-    paddingTop={rhythm(1.5)}
-  >
-    <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-      <g.H3 marginBottom={rhythm(2)} display={`inline`}>
-        {data.site.siteMetadata.title}
-      </g.H3>
+const Layout = ({ children, data: { site: { siteMetadata: site } } }) => (
+<ThemeProvider theme={theme}>
+    <main>
+      <Helmet>
+        <title>{site.title} &middot; {site.description}</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="description" content={site.description} />
+      </Helmet>
+      <g.Div
+        margin={`0 auto`}
+        maxWidth={theme.width}
+        padding={rhythm(.5)}
+        paddingTop={rhythm(1.5)}
+      >
+        <Header />
+        {children()}
+        <SiteFooter />
+      </g.Div>
+    </main>
+  </ThemeProvider>
+);
 
-      </Link>
-      <ul className={linkListStyle}>
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="/about/">About</ListLink>
-        <ListLink to="/contact/">Contact</ListLink>
-      </ul>
-    </header>
-    {children()}
-  </g.Div>
+export default Layout;
 
 export const query = graphql`
   query LayoutQuery {
     site {
       siteMetadata {
         title
+        description
       }
     }
   }

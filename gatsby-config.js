@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `The Awakened Mind`
+    title: `Simple Selenium`,
+    description: `Making selenium simple`,
   },
     plugins: [
       {
@@ -18,5 +19,20 @@ module.exports = {
           pathToConfigModule: `src/utils/typography.js`,
         },
       },
+      {
+        resolve: `gatsby-transformer-remark`,
+        options: {
+          plugins: [
+            {
+              resolve: `gatsby-remark-prismjs`,
+              options: {
+                classPrefix: "language-",
+                inlineCodeMarker: null,
+                aliases: {},
+              },
+            },
+          ],
+        },
+      }
     ],
   };
