@@ -19,9 +19,9 @@ export default ({ data }) => {
             css={{ textDecoration: `none`, color: `inherit` }}
           >
             <g.H3 marginBottom={rhythm(1 / 4)}>
-              {node.frontmatter.title}{" "}
-              <g.Span color="#BBB">— {node.frontmatter.date}</g.Span>
+              {node.frontmatter.title}
             </g.H3>
+            <g.Span color="#BBB">{node.frontmatter.date}</g.Span>
             <p>{node.excerpt}</p>
           </Link>
         </div>
