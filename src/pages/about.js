@@ -6,8 +6,10 @@ export default ({ data }) =>
       About {data.site.siteMetadata.title}
     </h1>
     <p>
-      We're the only site running on your computer dedicated to showing the best
-      photos and videos of pandas eating lots of food.
+      I am a big proponent of automated testing, unit tests to assert that my functions work for all edge cases, and Selenium testing to be sure that it's working in the browser. Not only does it make it easier to check if the entire site is still working, but it saves time in the long run from manual testings and constant regressions.
+    </p>
+    <p> 
+      My opinion on white spacing is that it needs to be consistent, my code style will follow the code that surrounds it. Writing self-documenting code is also very important, I will give variables and functions obvious names, and comment non-trivial pieces of functionality. Also, my tests will provide further documentation.
     </p>
   </div>
 

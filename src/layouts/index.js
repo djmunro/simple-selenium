@@ -8,6 +8,7 @@ import { rhythm } from "../utils/typography";
 require("prismjs/themes/prism-solarizedlight.css");
 
 
+const spacingPx = 10;
 const theme = {
   width: `800`
 };

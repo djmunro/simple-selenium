@@ -4,6 +4,7 @@ date: "2018-04-05"
 ---
 
 In this article i'm going to be explaining how to get selenium installed and change the default browser to Chrome using the ChromeDriver. Then we will write a simple program to verify that everything is up and running correctly. 
+<!-- end -->
 
 **Note*** I'll be writing the steps with Mac users in mind, but the equivalent steps should be easy to find with a quick google-search for other operating systems.
 

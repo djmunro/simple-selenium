@@ -20,7 +20,7 @@ const SiteFooter = () => (
     <P>
     <small>
       This site is built with <A inline href="https://www.gatsbyjs.org/">GatsbyJS</A>.
-      You can find the <A inline href="https://github.com/knpwrs/knpw.rs">source code on GitHub</A>.
+      You can find the <A inline href="https://github.com/djmunro/simple-selenium">source code on GitHub</A>.
     </small>
     </P>
   </Footer>

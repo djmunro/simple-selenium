@@ -21,7 +21,7 @@ const Header = () => (
       </g.H3>
       </Link>
       
-      <ul className={linkListStyle}>
+      <ul className={linkListStyle} data-testid="navigation">
         <g.A
           href="/"
           display="inline-block"
